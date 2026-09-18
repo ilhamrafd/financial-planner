@@ -17,13 +17,13 @@ import (
 var db *sql.DB
 
 func main() {
-	botToken := "8801688586:AAFJ6T-UPAHLIR2PuDM3JclFpnJnRbzrlN0" 
+	botToken := "BOT_TOKEN" 
 	
 	if envToken := os.Getenv("TELEGRAM_BOT_TOKEN"); envToken != "" {
 		botToken = envToken
 	}
 
-	if botToken == "" || botToken == "7823561234:AAHxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" {
+	if botToken == "" || botToken == "BO_TOKEN" {
 		log.Fatal("ERROR: Harap masukkan TELEGRAM_BOT_TOKEN yang valid di dalam file bot.go!")
 	}
 
