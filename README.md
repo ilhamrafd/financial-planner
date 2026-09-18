@@ -1,6 +1,6 @@
-# E-Wallet Simple App
+# financial-planner Simple App
 
-Aplikasi E-Wallet sederhana dengan:
+Aplikasi finplan sederhana dengan:
 - **Backend**: Golang (`net/mux`, `lib/pq`)
 - **Frontend**: Vue 3 + Vite + Axios
 - **Database**: PostgreSQL
