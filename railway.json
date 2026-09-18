@@ -1,0 +1,19 @@
+{
+  "services": {
+    "backend": {
+      "build": {
+        "dockerfile": "./backend/Dockerfile"
+      },
+      "environment": {
+        "DATABASE_URL": "$DATABASE_URL"
+      },
+      "port": 8080
+    },
+    "frontend": {
+      "build": {
+        "dockerfile": "./frontend/Dockerfile"
+      },
+      "port": 80
+    }
+  }
+}
